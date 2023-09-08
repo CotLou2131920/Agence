@@ -1,0 +1,4 @@
+﻿  Agence.cpp
+C:\Code\JeuxVideo\Agence\labAgence\Agence\Vaisseau.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Code\JeuxVideo\Agence\labAgence\Agence\Faction.h(2,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Agence.vcxproj -> C:\Code\JeuxVideo\Agence\labAgence\x64\Debug\Agence.exe
