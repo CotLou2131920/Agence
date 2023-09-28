@@ -1,8 +1,16 @@
 #include "Transport.h"
 
-Transport::Transport() : Vaisseau(8,5,3,10,0,0,1000)
+Transport::Transport(Faction* faction) : Vaisseau(faction)
 {
 
+	vie = 8;
+	defense = 5;
+	attaque = 3;
+	capacite = 10;
+	niveau = 0;
+	exp = 0;
+	valeurMarchande = 1000;
+	
 
 
 

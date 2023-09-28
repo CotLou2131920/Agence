@@ -1,9 +1,16 @@
 #include "Guerre.h"
 
-Guerre::Guerre() : Vaisseau(8, 5, 8, 2, 0, 0, 2000)
+Guerre::Guerre(Faction* faction) : Vaisseau(faction)
 {
-
-
+	
+	vie = 8;
+	defense = 5;
+	attaque = 8;
+	capacite = 2;
+	niveau = 0;
+	exp = 0;
+	valeurMarchande = 2000;
+	
 
 
 }

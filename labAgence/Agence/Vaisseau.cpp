@@ -1,14 +1,13 @@
 #include "Vaisseau.h"
 
-Vaisseau::Vaisseau(int _vie, int _deff, int _att, int _capacite, int _niv, int _exp, int _valeur)
+Vaisseau::Vaisseau(Faction* _faction)
 {
-	vie = _vie;
-	defense = _deff;
-	attaque = _att;
-	capacite = _capacite;
-	niveau = _niv;
-	exp = _exp;
-	valeurMarchande = _valeur;
+	faction = _faction;
+}
+
+Vaisseau::Vaisseau()
+{
+
 }
 
 Vaisseau::~Vaisseau()

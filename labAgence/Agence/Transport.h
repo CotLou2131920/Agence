@@ -5,7 +5,7 @@ class Transport :
 {
 
 public:
-	Transport();
+	Transport(Faction* faction);
 	~Transport();
 
 	std::string virtual to_string();

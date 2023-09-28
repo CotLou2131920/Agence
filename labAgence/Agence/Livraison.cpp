@@ -1,8 +1,15 @@
 #include "Livraison.h"
 
-Livraison::Livraison() : Vaisseau(10, 4, 1, 10, 0, 0, 500)
+Livraison::Livraison(Faction* faction) : Vaisseau(faction)
 {
-
+	vie = 10;
+	defense = 4;
+	attaque = 1;
+	capacite = 10;
+	niveau = 0;
+	exp = 0;
+	valeurMarchande = 500;
+	
 
 
 
