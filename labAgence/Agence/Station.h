@@ -13,12 +13,16 @@ class Station
 	int vieStation;
 	int capMax;
 	std::vector<Vaisseau*>  vecVaisseau;
+	std::list<Mission*> missions;
 
 
 	Station();
-	std::list<Mission> GenereMission();
-	std::string ObjectifMission(int mission);
+	std::list<Mission*> GenereMission();
+	Mission* ObjectifMission(int mission);
 	~Station();
+	int CheckMissionFini();
+	void CheckMissionDispo();
+	void CheckMissionEnCours();
 
 	std::vector<Vaisseau*> getVaisseauDispo();
 	void init();
