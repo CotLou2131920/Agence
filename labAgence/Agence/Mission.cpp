@@ -30,5 +30,5 @@ std::string Mission::to_string()
 		"Attaque  : " + std::to_string(attDemande) + "\n" +
 		"Capacite : " + std::to_string(capDemande) + "\n\n" +
 		"Distance : " + std::to_string(distance) + ", Recompense : " + std::to_string(platinum) + " de platinum\n";
-
+	return info;
 }
